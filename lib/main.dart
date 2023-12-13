@@ -70,10 +70,10 @@ class _MyHomePageState extends State<MyHomePage> {
           }
 
 
-          // if(snapshot.hasData){
-          //   //print('loggedin hai');
-          //   return const homepage();
-          // }
+          if(snapshot.hasData){
+            //print('loggedin hai');
+            return const homepage();
+          }
 
 
 
